@@ -1,0 +1,10 @@
+* Details
+Silently uninstalls Bitdefender.
+You can either do a normal uninstall or a forceful uninstall.
+Uninstalling forcefully can fix corrupt uninstallations that failed.
+
+* Usage
+#+begin_src shell
+$env:forceful=$true
+./script.ps1
+#+end_src
